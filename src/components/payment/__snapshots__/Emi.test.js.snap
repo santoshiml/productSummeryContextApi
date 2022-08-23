@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`emi cOMPONENT Should Render Properly 1`] = `
+<div>
+  <h5
+    className="termsHeading"
+  >
+    Choose your terms
+  </h5>
+  <div
+    className="emi-selector form-check"
+  >
+    <label
+      className="formEmiLable form-check-label"
+    >
+      <input
+        className="form-check-input"
+        name="emi"
+        onClick={[Function]}
+        type="radio"
+      />
+      <div
+        className="formEmiLeft"
+      >
+        1 Payment due
+      </div>
+      <div
+        className="formEmiRight"
+      >
+        €43,271.02
+      </div>
+    </label>
+  </div>
+  <div
+    className="emi-selector form-check"
+  >
+    <label
+      className="formEmiLable form-check-label"
+    >
+      <input
+        className="form-check-input"
+        name="emi"
+        onClick={[Function]}
+        type="radio"
+      />
+      <div
+        className="formEmiLeft"
+      >
+        2 Payment due
+      </div>
+      <div
+        className="formEmiRight"
+      >
+        €21,635.51
+      </div>
+    </label>
+  </div>
+  <div
+    className="emi-selector form-check"
+  >
+    <label
+      className="formEmiLable form-check-label"
+    >
+      <input
+        className="form-check-input"
+        name="emi"
+        onClick={[Function]}
+        type="radio"
+      />
+      <div
+        className="formEmiLeft"
+      >
+        3 Payment due
+      </div>
+      <div
+        className="formEmiRight"
+      >
+        €14,423,67
+      </div>
+    </label>
+  </div>
+  <button
+    className="continueBtn disabled btn btn-primary"
+    disabled={false}
+    onClick={[Function]}
+    type="button"
+  >
+    Continued
+  </button>
+</div>
+`;

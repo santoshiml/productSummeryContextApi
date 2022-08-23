@@ -1,0 +1,273 @@
+/* .navbar {
+    background-color: #060b26;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  } */
+
+  .menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    background: none;
+  }
+  
+  .nav-menu {
+    background-color: #000338;
+    width: 550px;
+    min-height: 100vh;
+    position: fixed;
+    top: 0;
+    left: -100%;
+    transition: 850ms;
+    align-items: center;
+    padding: 175px 100px 100px;
+  }
+  
+  .nav-menu.active {
+    left: 0;
+    transition: 350ms;
+  }
+  
+  .nav-text {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 8px 0px 8px 16px;
+    list-style: none;
+    height: 60px;
+  }
+  
+  .nav-text a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 4px;
+  }
+  
+  .nav-text a:hover {
+    background-color: #eee6e6;
+  }
+  
+  .nav-menu-items {
+    width: 100%;
+  }
+  
+  .navbar-toggle {
+    background-color: #000338;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  
+  span {
+    margin-left: 16px;
+  }
+  
+  .help {
+    color: #fafbff
+  }
+  
+  .flex-container {
+    display: flex;
+    background-color: rgb(211, 218, 224);
+  }
+  
+  .flex-container>div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 10px;
+    font-size: 10px;
+  }
+  
+  
+  .sidebar-container {
+    margin-left: 150px;
+    color: #fff;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 600px;
+  }
+  
+  .menu-title {
+    margin-bottom: 5px;
+    font-size: 16px;
+  }
+  
+  .amount-control {
+  
+    display: flex;
+    align-items: center;
+  }
+  
+  .amount-control button {
+    padding: 3px 6px;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #086c67;
+    background-color: #ccfff8;
+    border: none;
+  }
+  
+  .menu-amount {
+    font-size: 20px;
+    font-weight: 500;
+  }
+  
+  .menu-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+  }
+  
+  .subMenusIcons {
+    font-size: 16px;
+    margin: 0 5px;
+  }
+  
+  .invoiceBtn {
+    background-color: transparent;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    padding: 5px;
+  }
+  
+  .dispute-btn{
+    padding: 3px 6px;
+    font-weight: 500;
+      font-size: 14px;
+      color: #585cce;
+      background-color: #fff;
+      border: none;
+  }
+  
+  .mainContent{
+    margin-left: 550px;
+  }
+  
+  .mainContent{
+    padding: 175px 100px 100px;
+  }
+  
+  .termsHeading{
+    font-size: 22px;
+    font-weight: 500;
+    color: #67757c;
+    margin-bottom: 15px;
+  }
+  
+  .emi-selector{
+    padding: 15px 40px;
+    border-radius: 10px;
+    color: #67757c;
+    border: 1px solid #efefef;
+    width: 470px;
+    box-shadow: 0px 0px 22px 5px rgba(143,143,143,.2);
+    margin-bottom: 8px;
+  }
+  
+  .formEmiLable{
+    margin-left: 5px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .continueBtn.disabled{
+    opacity: .3;
+    background: #3339e9;
+    color: #fff;
+  }
+  .continueBtn{
+    background: #3339e9;
+    color: #fff;
+    border: none;
+    border-radius: 7px;
+    padding: 10px 15px;
+    margin-top: 30px;
+  }
+  .paymentHeading{
+    color: #000335;
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-weight: 500;
+  }
+  
+  .paymentLable{
+    color: #8b8cbe;
+  }
+  
+  
+  .divider{
+    border-bottom: 1px solid #000;
+  }
+  
+  .paymentTab{
+    border-radius: 5px;
+    margin: 3px;
+  }
+  .paymentTab a.active{
+    background: #f4f6fe;
+    color: #353ad5;
+  }
+    .paymentTab a{
+    color: #8a8dc2;
+    background: #f9fbfa;   
+     font-weight: 500;
+    padding: 5px;
+  
+  }
+  
+  .inputIcon {
+    background: transparent;
+    padding: 0 5px;
+  }
+  
+  .InputGroupText{
+    border-right: none;
+    padding-right: 3px;
+  }
+  
+  .InvoiceTitle{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .InvoiceCheck{
+    background: #f4f7ff ;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #3439e3;
+  }
+  
+  .InvoiceTitle h6{
+    font-size: 22px;
+    margin-left: 15px;
+    font-weight: 500;
+    color: #3439e3;
+    margin-bottom: 0;
+  }
+  
+  .InvoiceDetail{
+    color: #6c7981;
+  }
+  
+  .InvoiceDetail span{
+  font-weight: 500;
+  font-size: 17px;
+  }
+  
+  
